@@ -1,0 +1,297 @@
+{
+    "editor.semanticTokenColorCustomizations": {
+        "[Tokyo Night Dark]": {
+            "enabled": false,
+            "rules": {
+                "*.builtin": "#0db9d7",
+                "selfParameter": "#F7768E",
+                "*.declaration.readonly": "#3dfff5",
+                "*.readonly": "#3dfff5"
+            }
+        }, 
+        "[Best Themes - Cosmic]": {
+            "enabled": false
+        }
+    },
+    "editor.fontSize": 15.5,
+    "terminal.integrated.fontSize": 15,
+    "editor.lineHeight": 1.4,
+    "editor.fontLigatures": true,
+    "typescript.format.semicolons": "insert",
+    "window.titleBarStyle": "custom",
+    "editor.renderWhitespace": "none",
+    "editor.selectionClipboard": false,
+    "go.inlayHints.compositeLiteralFields": true,
+    "go.inlayHints.assignVariableTypes": true,
+    "go.inlayHints.compositeLiteralTypes": true,
+    "go.inlayHints.constantValues": true,
+    "go.inlayHints.functionTypeParameters": true,
+    "go.inlayHints.parameterNames": true,
+    "go.inlayHints.rangeVariableTypes": true,
+    "go.alternateTools": {},
+    "go.gopath": "",
+    "go.toolsGopath": "/mnt/novaera/go/vscode",
+    "gopls": {
+        "ui.semanticTokens": true
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "workbench.colorTheme": "Tokyo Night Dark",
+    "editor.tokenColorCustomizations": {
+        "[Dark Horizon]": {
+            "textMateRules": [
+                {
+                    "scope": "variable.other.assignment",
+                    "settings": {
+                        "foreground": "#dddddd",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "variable.other",
+                    "settings": {
+                        "foreground": "#d8d8d8eb",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "entity.name.type",
+                    "settings": {
+                        "foreground": "#e66767",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "keyword.struct",
+                    "settings": {
+                        "foreground": "#f55454",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "keyword.type",
+                    "settings": {
+                        "foreground": "#976df9",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "keyword.operator.comparison",
+                    "settings": {
+                        "foreground": "#e66767",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "keyword.operator.logical",
+                    "settings": {
+                        "foreground": "#e66767",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "constant.numeric.decimal",
+                    "settings": {
+                        "foreground": "#bbf2b8",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "constant.language.go",
+                    "settings": {
+                        "foreground": "#976df9",
+                        "fontStyle": "bold"
+                    }
+                }
+            ]
+        },
+        "[Ayu Dark Bordered]": {
+            "textMateRules": [
+                {
+                    "scope": "variable.other.assignment",
+                    "settings": {
+                        "foreground": "#dddddd",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "entity.name.type",
+                    "settings": {
+                        "foreground": "#e66767",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "keyword.struct",
+                    "settings": {
+                        "foreground": "#f55454",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "keyword.type",
+                    "settings": {
+                        "foreground": "#976df9",
+                        "fontStyle": "bold"
+                    }
+                },
+            ]
+        },
+        "[Best Themes - Cosmic]": {
+            "textMateRules": [
+                {
+                    "scope": "variable.other.assignment",
+                    "settings": {
+                        "foreground": "#dddddd",
+                        "fontStyle": "bold"
+                    }
+                },
+                // {
+                //     "scope": "variable.other",
+                //     "settings": {
+                //         "foreground": "#d8d8d8eb",
+                //         "fontStyle": ""
+                //     }
+                // },
+                {
+                    "scope": "entity.name.type",
+                    "settings": {
+                        "foreground": "#bbd14d",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "source.go keyword.struct.go",
+                    "settings": {
+                        "foreground": "#f88b8b",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "source.go keyword.type.go",
+                    "settings": {
+                        "foreground": "#8aedd6",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "keyword.operator.comparison",
+                    "settings": {
+                        "foreground": "#e66767",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "keyword.operator.logical",
+                    "settings": {
+                        "foreground": "#e66767",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "constant.numeric.decimal",
+                    "settings": {
+                        "foreground": "#68ff60",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "constant.language.go",
+                    "settings": {
+                        "foreground": "#976df9",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope":"entity.name.function",
+                    "settings": {
+                        "foreground": "#8aedd6",
+                        // "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope":"string.quoted.double.go",
+                    "settings": {
+                        "foreground": "#959ff6",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "punctuation.other.colon.go",
+                    "settings": {
+                        "foreground": "#a8c7f5"
+                    }
+                }
+            ]
+        },
+        "[Tokyo Night Dark]": {
+            "textMateRules": [
+                {
+                    "scope": "variable.other.assignment",
+                    "settings": {
+                        // "foreground": "#FF0000"
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "source.go keyword.struct.go",
+                    "settings": {
+                        "foreground": "#F7768E",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "entity.name.type",
+                    "settings": {
+                        "foreground": "#8f91e6",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope":"entity.name.function",
+                    "settings": {
+                        "foreground": "#8aedea",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "keyword.operator.comparison",
+                    "settings": {
+                        "foreground": "#e66767",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "keyword.operator.logical",
+                    "settings": {
+                        "foreground": "#e66767",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "punctuation.other.colon.go",
+                    "settings": {
+                        "foreground": "#a8c7f5"
+                    }
+                },
+                {
+                    "scope": "source.go keyword.type.go",
+                    "settings": {
+                        "foreground": "#F7768E",
+                        "fontStyle": "bold"
+                    }
+                },
+                
+            ]
+        }
+    },
+    "workbench.colorCustomizations": {
+
+        "[Best Themes - Cosmic]": {
+            "editorBracketHighlight.foreground1": "#a3ff91",
+            "editorBracketHighlight.foreground2": "#e9ff5a"
+        }
+    },
+    "editor.fontFamily": "Hack , 'Droid Sans Mono', 'monospace', monospace",
+    "window.zoomLevel": 1,
+    "editor.inlayHints.enabled": "onUnlessPressed"
+}

@@ -1,0 +1,9 @@
+{
+    "window.zoomLevel": 1,
+    "editor.fontSize": 16,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingModuleSource": "none"
+    },
+    "workbench.colorTheme": "Tokyo Night Dark",
+
+}

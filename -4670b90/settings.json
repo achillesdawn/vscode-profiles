@@ -1,0 +1,82 @@
+{
+    "window.zoomLevel": 1,
+    "editor.fontFamily": "Iosevka Extended, 'monospace', monospace",
+    "editor.fontSize": 16,
+    "workbench.colorTheme": "Tokyo Night Dark",
+    "editor.semanticHighlighting.enabled": false,
+    "workbench.colorCustomizations": {
+        "[Tokyo Night Dark]": {
+            "editorInlayHint.foreground": "#525f88",
+            // "editorInlayHint.parameterForeground": "#3f496a"
+            "editorBracketHighlight.foreground1": "#636363"
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[Tokyo Night Dark]": {
+            "textMateRules": [
+                {
+                    "scope": "entity.name.type.rust",
+                    "settings": {
+                        "foreground": "#8be9ec",
+                        // "foreground": "#c591ea"
+                        // "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "entity.name.type.numeric.rust",
+                    "settings": {
+                        "foreground": "#C0768E",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "entity.name.type.primitive.rust",
+                    "settings": {
+                        "foreground": "#C0768E",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "entity.name.type.option.rust",
+                    "settings": {
+                        "foreground": "#d1fc9d",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": "entity.name.type.struct.rust",
+                    "settings": {
+                        // "foreground": "#FF0000",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "punctuation.definition.attribute.rust",
+                    "settings": {
+                        "foreground": "#636363",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "meta.attribute.rust",
+                    "settings": {
+                        "foreground": "#636363",
+                        "fontStyle": "italic"
+                    }
+                },
+            ]
+        }
+    },
+    "editor.inlayHints.enabled": "onUnlessPressed",
+    "editor.selectionClipboard": false,
+    "javascript.inlayHints.enumMemberValues.enabled": true,
+    "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "javascript.inlayHints.parameterTypes.enabled": true,
+    "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+    "javascript.inlayHints.variableTypes.enabled": true,
+    "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "typescript.inlayHints.parameterNames.enabled": "all",
+    "typescript.inlayHints.parameterTypes.enabled": true,
+    "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+    "typescript.inlayHints.variableTypes.enabled": true,
+}

@@ -1,0 +1,22 @@
+{
+    "cmake.buildEnvironment": {
+        "PICO_SDK_PATH": "/home/miguel/pico/pico-sdk"
+    },
+    "cmake.configureEnvironment": {
+        "PICO_SDK_PATH": "/home/miguel/pico/pico-sdk"
+    },
+    "cmake.environment": {
+        "PICO_SDK_PATH": "/home/miguel/pico/pico-sdk"
+    },
+    "cmake.configureOnOpen": true,
+    "editor.fontSize": 16.5,
+    "editor.mouseWheelZoom": true,
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4  }",
+    "C_Cpp.default.includePath": [
+        "/usr/lib/gcc/arm-none-eabi/12.2.1/../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi"
+    ],
+    "editor.fontFamily": "iosevka extended, 'Droid Sans Mono', 'monospace', monospace",
+    "editor.lineHeight": 1.5,
+    "window.zoomLevel": 1,
+    "C_Cpp.clang_format_style": "{AlignAfterOpenBracket: \"BlockIndent\", AllowAllArgumentsOnNextLine: true, BinPackArguments: false, BinPackParameters:false}"
+}

@@ -223,12 +223,12 @@
                 }
             ]
         },
-        "[Tokyo Night Dark]": {
+                "[Tokyo Night Dark]": {
             "textMateRules": [
                 {
                     "scope": "variable.other.assignment",
                     "settings": {
-                        // "foreground": "#FF0000"
+                        // "foreground": "#8260da",
                         "fontStyle": "bold"
                     }
                 },
@@ -249,7 +249,7 @@
                 {
                     "scope":"entity.name.function",
                     "settings": {
-                        "foreground": "#8aedea",
+                        "foreground": "#2cc0bb",
                         "fontStyle": "bold"
                     }
                 },
@@ -288,7 +288,9 @@
 
         "[Best Themes - Cosmic]": {
             "editorBracketHighlight.foreground1": "#a3ff91",
-            "editorBracketHighlight.foreground2": "#e9ff5a"
+            "editorBracketHighlight.foreground2": "#e9ff5a",
+        }, "[Tokyo Night Dark]": {
+            "editorInlayHint.foreground": "#525f88",
         }
     },
     "editor.fontFamily": "Hack , 'Droid Sans Mono', 'monospace', monospace",

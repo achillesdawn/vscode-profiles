@@ -8,12 +8,20 @@
                 "*.declaration.readonly": "#3dfff5",
                 "*.readonly": "#3dfff5"
             }
-        }, 
+        },
+        "[Tokyo Night]": {
+            "enabled": true,
+            "rules": {
+                "variable.definition": {
+                    "bold": true
+                }
+            }
+        },
         "[Best Themes - Cosmic]": {
             "enabled": false
         }
     },
-    "editor.fontSize": 15.5,
+    "editor.fontSize": 15,
     "terminal.integrated.fontSize": 15,
     "editor.lineHeight": 1.4,
     "editor.fontLigatures": true,
@@ -35,7 +43,7 @@
         "ui.semanticTokens": true
     },
     "go.toolsManagement.autoUpdate": true,
-    "workbench.colorTheme": "Tokyo Night Dark",
+    "workbench.colorTheme": "Tokyo Night",
     "editor.tokenColorCustomizations": {
         "[Dark Horizon]": {
             "textMateRules": [
@@ -202,14 +210,14 @@
                     }
                 },
                 {
-                    "scope":"entity.name.function",
+                    "scope": "entity.name.function",
                     "settings": {
                         "foreground": "#8aedd6",
                         // "fontStyle": "bold"
                     }
                 },
                 {
-                    "scope":"string.quoted.double.go",
+                    "scope": "string.quoted.double.go",
                     "settings": {
                         "foreground": "#959ff6",
                         "fontStyle": "bold"
@@ -223,7 +231,7 @@
                 }
             ]
         },
-                "[Tokyo Night Dark]": {
+        "[Tokyo Night Dark]": {
             "textMateRules": [
                 {
                     "scope": "variable.other.assignment",
@@ -232,6 +240,13 @@
                         "fontStyle": "bold"
                     }
                 },
+                // {
+                //     "scope": "keyword.function",
+                //     "settings": {
+                //         "foreground": "#cdb08f",
+                //         "fontStyle": "bold"
+                //     }
+                // },
                 {
                     "scope": "source.go keyword.struct.go",
                     "settings": {
@@ -247,7 +262,7 @@
                     }
                 },
                 {
-                    "scope":"entity.name.function",
+                    "scope": "entity.name.function",
                     "settings": {
                         "foreground": "#2cc0bb",
                         "fontStyle": "bold"
@@ -280,16 +295,82 @@
                         "fontStyle": "bold"
                     }
                 },
-                
+            ]
+        },
+        "[Tokyo Night]": {
+            "textMateRules": [
+                // {
+                //     "scope": "source.go variable.other.assignment.go",
+                //     "settings": {
+                //         // "foreground": "#dddddd",
+                //         "fontStyle": "bold"
+                //     }
+                // },
+                {
+                    "scope": "variable.other",
+                    "settings": {
+                        "foreground": "#d8d8d8eb",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "entity.name.type",
+                    "settings": {
+                        "foreground": "#8F91E6",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "keyword.struct",
+                    "settings": {
+                        "foreground": "#f55454",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "keyword.type",
+                    "settings": {
+                        "foreground": "#976df9",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "keyword.operator.comparison",
+                    "settings": {
+                        "foreground": "#e66767",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "keyword.operator.logical",
+                    "settings": {
+                        "foreground": "#e66767",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "constant.numeric.decimal",
+                    "settings": {
+                        "foreground": "#bbf2b8",
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "constant.language.go",
+                    "settings": {
+                        "foreground": "#976df9",
+                        "fontStyle": "bold"
+                    }
+                }
             ]
         }
     },
     "workbench.colorCustomizations": {
-
         "[Best Themes - Cosmic]": {
             "editorBracketHighlight.foreground1": "#a3ff91",
             "editorBracketHighlight.foreground2": "#e9ff5a",
-        }, "[Tokyo Night Dark]": {
+        },
+        "[Tokyo Night Dark]": {
             "editorInlayHint.foreground": "#525f88",
         }
     },
